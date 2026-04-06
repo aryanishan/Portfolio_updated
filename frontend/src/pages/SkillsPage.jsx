@@ -22,7 +22,7 @@ function SkillsPage() {
                   </div>
                   <div className="h-3 rounded-full bg-slate-200/70 dark:bg-slate-800/80">
                     <div
-                      className="h-3 rounded-full bg-gradient-to-r from-primary via-highlight to-accent"
+                      className="h-3 rounded-full bg-primary"
                       style={{ width: `${skill.level}%` }}
                     />
                   </div>

@@ -107,7 +107,7 @@ function ContactPage() {
             <button
               type="submit"
               disabled={submitting}
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-6 py-3 font-semibold text-white shadow-lg shadow-primary/25 transition hover:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-70"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-black shadow-lg shadow-primary/25 transition hover:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-70"
             >
               <Send size={18} />
               {submitting ? 'Sending...' : 'Send Message'}

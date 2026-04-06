@@ -157,7 +157,6 @@ export const projects = [
     techStack: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js', 'REST APIs', 'Payment Gateway'],
     github: 'https://github.com/aryanishan',
     demo: 'https://github.com/aryanishan',
-    gradient: 'from-primary via-highlight to-accent',
   },
   {
     id: 'travel-companion-app',
@@ -173,7 +172,6 @@ export const projects = [
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express.js', 'REST APIs'],
     github: 'https://github.com/aryanishan',
     demo: 'https://github.com/aryanishan',
-    gradient: 'from-highlight via-primary to-accent',
   },
   {
     id: 'spam-sms-detector',
@@ -189,7 +187,6 @@ export const projects = [
     techStack: ['Python', 'Scikit-learn', 'Flask', 'FastAPI', 'NLP', 'HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/aryanishan',
     demo: 'https://github.com/aryanishan',
-    gradient: 'from-accent via-primary to-highlight',
   },
 ]
 

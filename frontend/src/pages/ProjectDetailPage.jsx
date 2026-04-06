@@ -10,7 +10,7 @@ function ProjectDetailPage() {
   if (!project) {
     return (
       <PageShell eyebrow="Project" title="Project not found" description="The requested project route does not exist.">
-        <Link to="/projects" className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-5 py-3 font-semibold text-white">
+        <Link to="/projects" className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-semibold text-black">
           <ArrowLeft size={18} />
           Back to projects
         </Link>
@@ -46,7 +46,7 @@ function ProjectDetailPage() {
               href={project.github}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-5 py-3 font-semibold text-white"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 font-semibold text-black"
             >
               <SquareKanban size={18} />
               GitHub

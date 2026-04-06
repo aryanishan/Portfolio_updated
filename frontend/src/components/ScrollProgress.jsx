@@ -8,7 +8,7 @@ function ScrollProgress() {
   return (
     <MotionDiv
       style={{ scaleX }}
-      className="fixed left-0 right-0 top-0 z-50 h-1 origin-left bg-gradient-to-r from-primary via-highlight to-accent"
+      className="fixed left-0 right-0 top-0 z-50 h-1 origin-left bg-primary"
     />
   )
 }

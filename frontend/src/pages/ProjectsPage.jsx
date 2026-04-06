@@ -44,7 +44,7 @@ function ProjectsPage() {
             whileHover={{ y: -8 }}
             className="project-card glass-panel rounded-[30px] p-6 transition"
           >
-            <div className={`rounded-[22px] bg-gradient-to-r ${project.gradient} p-[1px]`}>
+            <div className="rounded-[22px] border border-primary/40 bg-primary/8 p-[1px]">
               <div className="rounded-[21px] bg-bg px-4 py-3">
                 <p className="text-sm font-semibold uppercase tracking-[0.22em] text-muted">{project.period}</p>
               </div>
@@ -61,7 +61,7 @@ function ProjectsPage() {
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
                 to={`/projects/${project.id}`}
-                className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-4 py-2 text-sm font-semibold text-white"
+                className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
               >
                 Details
               </Link>

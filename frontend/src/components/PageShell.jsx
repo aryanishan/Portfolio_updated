@@ -12,7 +12,7 @@ function PageShell({ eyebrow, title, description, children }) {
       className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-14 pt-12 sm:px-6 lg:px-10"
     >
       <section className="section-grid relative overflow-hidden rounded-[36px] border border-surface-border/70 bg-bg-soft px-6 py-10 sm:px-10">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(99,102,241,0.12),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(34,197,94,0.12),transparent_28%)]" />
+        <div className="absolute inset-0 bg-primary/6" />
         <div className="relative z-10 max-w-3xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-primary">{eyebrow}</p>
           <h1 className="font-display text-4xl font-bold tracking-tight text-text sm:text-5xl">{title}</h1>

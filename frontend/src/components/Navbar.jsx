@@ -15,7 +15,7 @@ const navItems = [
 
 function linkClassName({ isActive }) {
   return `rounded-full px-4 py-2 text-sm font-semibold transition ${
-    isActive ? 'bg-primary text-white shadow-lg shadow-primary/30' : 'text-muted hover:text-text'
+    isActive ? 'bg-primary text-black shadow-lg shadow-primary/30' : 'text-muted hover:text-text'
   }`
 }
 
@@ -41,7 +41,7 @@ function Navbar() {
         <div className="hidden items-center gap-3 lg:flex">
           <a
             href={personalInfo.resumePath}
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-primary/25 transition hover:scale-[1.02]"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black shadow-lg shadow-primary/25 transition hover:scale-[1.02]"
             download
           >
             <Download size={16} />
@@ -76,7 +76,7 @@ function Navbar() {
           ))}
           <a
             href={personalInfo.resumePath}
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-4 py-3 text-sm font-semibold text-white"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-black"
             download
           >
             <Download size={16} />

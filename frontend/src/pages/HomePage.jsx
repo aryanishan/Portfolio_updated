@@ -58,7 +58,7 @@ function HomePage() {
           >
             <Link
               to="/projects"
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-highlight px-6 py-3 font-semibold text-white shadow-lg shadow-primary/25 transition hover:scale-[1.02]"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-black shadow-lg shadow-primary/25 transition hover:scale-[1.02]"
             >
               View Projects
               <ArrowRight size={18} />
@@ -150,7 +150,7 @@ function HomePage() {
                 whileHover={{ y: -8 }}
                 className="project-card glass-panel h-full rounded-[30px] p-6 transition"
               >
-                <div className={`rounded-[22px] bg-gradient-to-r ${project.gradient} p-[1px]`}>
+                <div className="rounded-[22px] border border-primary/40 bg-primary/8 p-[1px]">
                   <div className="rounded-[21px] bg-bg px-4 py-3 text-sm font-semibold text-muted">{project.period}</div>
                 </div>
                 <h4 className="mt-5 font-display text-2xl font-bold text-text">{project.title}</h4>
